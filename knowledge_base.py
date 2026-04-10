@@ -223,4 +223,109 @@ KNOWLEDGE_CHUNKS = [
 
     {"id": "docs_presentations", "topic": "Documents Forms Introductory Session presentations slides download",
      "content": "Introductory Session presentations at Documents/Forms: IE 300 Introductory Session slides, IE 400 Introductory Session slides. Cover prerequisites, steps, company types, insurance, deadlines."},
+
+    # ===================== HOME PAGE =====================
+    {"id": "home_sp_meeting", "topic": "SP Meeting 2025 announcement general meeting March",
+     "content": "SP meeting 2025: A general meeting on IE 300 and IE 400 summer internship courses and SP procedures was held on March 14, 2025 at 14:40. IE 300 in IE03, IE 400 in IE04. Meeting slides available at Documents/Forms page."},
+
+    {"id": "home_sgk_activated", "topic": "SGK OCW system activated insurance application open",
+     "content": "The OCW system for applying for SGK insurances is now activated. Read the instructions in General Information carefully before applying."},
+
+    {"id": "home_contract", "topic": "SP work contract staj sözleşmesi signing",
+     "content": "If you need your SP work contract (staj sözleşmesi) signed, leave it at the Undergraduate Secretary Office IE 129 and get it back in one week."},
+
+    # ===================== GENERAL INFORMATION =====================
+    {"id": "gen_physical", "topic": "General Information physical attendance remote online",
+     "content": "Summer internships must be done by physically attending the workplace. Remote or online internships are not accepted."},
+
+    {"id": "gen_public_institutions", "topic": "General Information public institutions kamu kurumları Kariyer Kapısı",
+     "content": "All public institutions in Turkey (kamu kurumları) accept internship applications through a centralized system at https://kariyerkapisi.cbiko.gov.tr/."},
+
+    {"id": "gen_erasmus", "topic": "General Information Erasmus internship abroad Europe 3 months",
+     "content": "Within the Erasmus program, internship is possible in Europe for 3-12 months. For details check https://ico.metu.edu.tr/. Short-term Erasmus internship (3 months) can only count as ONE of IE 300 or IE 400, not both."},
+
+    {"id": "gen_sgk_overview", "topic": "General Information SGK Insurance OCW platform course not real registered default",
+     "content": "SGK Insurance Applications managed via METU OCW (ocw.metu.edu.tr). All students registered to 'IE300/400 Summer Internship' course by default. This is NOT a real course — only for collecting insurance info. You still need to register for IE 300/400 in Fall semester after SP."},
+
+    {"id": "gen_sgk_when", "topic": "General Information SGK when to apply timing 2-3 weeks Monday Rektörlük too early too late",
+     "content": "Apply for SGK insurance 2-3 weeks before SP starts. Every Monday morning, applications for students starting within 2 weeks are sent to Rektörlük. Leave 1 full week safety margin between application and SP start. Do NOT apply too early (2 months before — Rektörlük won't process) or too late (5 days before — causes delays)."},
+
+    {"id": "gen_sgk_how", "topic": "General Information SGK how to apply OCW steps questionnaire declaration form upload",
+     "content": "How to apply for SGK: 1) Login to ocw.metu.edu.tr with student account. 2) Find IE 300/400 under 'My courses' (if missing, email ie-staj@metu.edu.tr). 3) Click IE 300/400 > 'Required Information' > 'SGK Insurance Application'. 4) Fill questionnaire with identity and company info, click Submit. 5) Upload 'Declaration Form for students with/without family health insurance' from Documents/Forms."},
+
+    {"id": "gen_sgk_document", "topic": "General Information SGK document e-devlet türkiye.gov.tr işe giriş belgesi ready",
+     "content": "SGK document available on e-devlet (turkiye.gov.tr) typically 2-3 workdays before SP starts. Login > search 'işe giriş' > select '4A İşe Giriş Çıkış Bildirgesi (Sosyal Güvenlik Kurumu)' > find your SP line > click 'Belge oluştur'. Committee does NOT send SGK document by email."},
+
+    {"id": "gen_sgk_emergency", "topic": "General Information SGK emergency application late urgent excel email",
+     "content": "Emergency SGK application: If no Mondays between now and SP start and you couldn't apply via OCW on time, fill the emergency excel file from SP website and email to ie-staj@metu.edu.tr with subject 'SGK basvurusu: Name Surname dd.mm.2025'. Only use with very valid reason!"},
+
+    {"id": "gen_sgk_mistakes", "topic": "General Information SGK mistakes errors correction questionnaire cancelled",
+     "content": "SGK application mistakes: If NOT yet sent to Rektörlük — submit new questionnaire (latest version used, older ignored). If ALREADY sent — contact ie-staj@metu.edu.tr. If internship cancelled — contact ie-staj@metu.edu.tr. If SGK document not ready — Rektörlük issues 2-3 workdays before SP. If SP starts next workday and no document, contact SP Committee that morning."},
+
+    {"id": "gen_voluntary", "topic": "General Information voluntary internship foreign students not allowed work permit SGK one month",
+     "content": "Voluntary internships: Not mandatory, process between student and company. SGK insurance for up to 1 month for 1 company. Submit second SGK application only after first document is issued. Leave at least 1 blank day between two SPs. IMPORTANT: Foreign students NOT allowed to do voluntary internships in Turkey — work permit required."},
+
+    {"id": "gen_paid_sp", "topic": "General Information paid summer practice private company payment İşsizlik Fonu bank receipt OCW",
+     "content": "If SP was at private company in Turkey and you received payment (not public institutions, not unpaid): 1) Login to ocw.metu.edu.tr. 2) Fill 'Paid SP form questionnaire' carefully (incomplete = rejected). 3) Download/print/sign Paid SP Form from Documents/Forms. 4) Upload signed form (PDF) + bank receipt (PDF) at OCW. If mistake, submit new form (latest counts)."},
+
+    # ===================== STEPS TO FOLLOW =====================
+    {"id": "steps_before", "topic": "Steps to Follow before summer practice company search apply insurance",
+     "content": "Before SP: 1) Examine SP website early. 2) Read SP Manual (Documents/Forms). 3) Check insurance info. 4) Find company — check department list, social connections, earlier SP databases. 5) Some companies need SP Application Letter (Documents/Forms). 6) Some need SP Protocol (sözleşme) — leave at IE 129, pick up in a week. 7) Apply for SGK insurance on time via OCW. 8) Start SP."},
+
+    {"id": "steps_during", "topic": "Steps to Follow during summer practice notes report evaluation form supervisor",
+     "content": "During SP: 1) Attend with full concentration, observe, participate. 2) Take notes regularly. 3) Prepare draft report during practice. 4) Have 'SP Evaluation Form' and 'Employer Survey' filled/signed by supervisor. 5) Supervisor emails forms to sp-belge@metu.edu.tr (PDF, traditional or digital signature, or post). 6) If paid, fill Paid SP Questionnaire on OCW + upload forms."},
+
+    {"id": "steps_after", "topic": "Steps to Follow after summer practice report ODTUClass deadline corrections plagiarism AI",
+     "content": "After SP: 1) Prepare report following SP Manual. 2) Register for IE 300/400 in registration period. 3) Submit report via ODTUClass (strict deadline announced). 4) Report in PDF format. 5) Checked for plagiarism and AI generation. 6) Graded by assigned faculty. 7) Last month of semester: reports needing corrections returned. 8) 2-3 weeks to complete corrections and return via ODTUClass."},
+
+    # ===================== FAQ =====================
+    {"id": "faq_arrange", "topic": "FAQ how to arrange find summer practice company department assigned personal application",
+     "content": "Two ways to find SP: apply personally OR wait for department announcements (limited capacity, risky). Some firms require department to select candidates — announcement made, students send transcripts/resumes/Preference Form. If assigned by department, must do SP at that company."},
+
+    {"id": "faq_departments", "topic": "FAQ which departments to visit during SP observe communicate",
+     "content": "Preferable to take all-around trip in organization. Can gather observations through effective communication even if stationed at one department."},
+
+    {"id": "faq_topics", "topic": "FAQ what topics study during practice relate courses systems",
+     "content": "IE has broad application area. SP is first lengthy observation of systems in operation. Relate course topics to experience. Learn various ways of performing organizational/technical functions. Use SP Manual as guide."},
+
+    {"id": "faq_bank_ie400", "topic": "FAQ bank suitable IE 400 service systems organizational information procedural",
+     "content": "For IE 400 in a bank: focus on systems aspects — organizational, information, procedural, managerial in service provision. Suitable as long as integrated operation of people, financial resources, processes, info with performance expectations and ongoing decision making/development."},
+
+    {"id": "faq_paperwork", "topic": "FAQ required paperwork registration steps IE 300 400 course add report submit evaluation questionnaire",
+     "content": "Required steps: 1) Add IE 300/400 during registration. 2) Submit SP reports to Students Affair Secretary (IE 128) within first 2 weeks, also soft copy through website. 3) Company sends signed evaluation form + employer survey to Student Affairs. 4) Fill online questionnaire (announced)."},
+
+    {"id": "faq_problem_definition", "topic": "FAQ IE 400 sufficient problem definition Appendix A formulation",
+     "content": "Sufficient IE 400 problem definition: described in Appendix A of IE 400 Manual. Supply own description of problem formulation components, justify points specific to practice organization. Problem identification from methodical analysis. Alternatives and constraints supported by problem-specific facts."},
+
+    {"id": "faq_service_manufacturing", "topic": "FAQ manufacturing questions service organization analogies budget inventory schedule",
+     "content": "If SP at service org and asked manufacturing questions: see analogies. Budget allocation = production plan, preclassified records = inventory, timetables = schedules, form flow = material flow. Highlight reasons justifying similarities."},
+
+    {"id": "faq_multiple_students", "topic": "FAQ multiple students same organization separate report common project",
+     "content": "Every student writes separate report. IE 400: general outlook can be common, but use separate examples. Questions part must be different. Problem definitions must be different. Project part can be same if complex (max 2 students). Project-type: can submit same project report."},
+
+    {"id": "faq_project_type", "topic": "FAQ project type IE 400 full-time 30 workdays 6 weeks proposal report",
+     "content": "IE 400 project-type: full-time project, submit project report instead of problem definition. Min 30 workdays (6 weeks). Submit 2-page proposal (company description, project details, report outline) approved/signed by company to SP committee by first week of SP. Report must describe all phases: issue, environment, data, tools, outcomes, implementation."},
+
+    {"id": "faq_service_manual", "topic": "FAQ IE 400 service sector manual available photocopy",
+     "content": "IE 400 service sector manual is available. Can be obtained from the photocopy office in the department, or downloaded from Documents/Forms > SP Manuals."},
+
+    # ===================== SP OPPORTUNITIES (CURRENT) =====================
+    {"id": "sp_opp_overview", "topic": "SP Opportunities current companies internship positions available",
+     "content": "Current SP opportunities listed at sp-ie.metu.edu.tr > SP Opportunities (login required). Includes companies offering internships with details on location, areas, wage, and contact info. Check regularly for updates."},
+
+    {"id": "sp_opp_notable", "topic": "SP Opportunities notable companies MS Spektral NACRES GÜRİŞ Noksel Koçtaş İGA TEI",
+     "content": "Notable current SP opportunities: MS Spektral Savunma (Başkent OSB, paid, production planning, prefers 3rd year for IE400, may lead to full-time, contact Tolga Öztürk 05059500813). NACRES Yazılım (4th year). GÜRİŞ Genç Yetenek (apply via LinkedIn/KPM). Noksel Çelik Boru (production/quality/maintenance). Koçtaş (IE400, hybrid, due April 30, apply kockariyerim.com then notify ie-staj@metu.edu.tr). İGA Istanbul Airport (via Kariyer Kapısı). TEI TUSAŞ Motor (Eskişehir, paid, 4th year)."},
+
+    {"id": "sp_opp_ankara", "topic": "SP Opportunities Ankara companies TÜMAŞ UDEA HİDROAN MTM MPES DURUKAN Koluman BAŞÖZ DEICO VERTE Hestaş EUROPOWER",
+     "content": "Ankara SP opportunities: TÜMAŞ (Kavaklıdere, consultancy). UDEA Elektronik (Yenimahalle, production). HİDROAN (Sincan, multiple areas). MTM Makina (Kavaklıdere, paid). MPES Mühendislik (Çankaya, paid). DURUKAN Şekerleme (Sincan, paid). Koluman Otomotiv Teknokent (Çankaya, paid). BAŞÖZ Enerji (Temelli, paid). DEICO (Yenimahalle, 4th year). VERTE (Yenimahalle, 4th year). Hestaş Madencilik (Çankaya, 4th year). EUROPOWER Enerji (paid, 4th year)."},
+
+    {"id": "sp_opp_other", "topic": "SP Opportunities outside Ankara İzmir Bursa Antalya Balıkesir İstanbul Eskişehir",
+     "content": "SP opportunities outside Ankara: ELTAŞ Transformatör (Aliağa/İzmir, paid). EKER Süt (Bursa, paid). İMECAR Elektronik (Antalya). Gönenli Süt (Balıkesir). Anadolu Sigorta (Beykoz/İstanbul, paid). Ledbim Bilişim (Antalya, 4th year). Kütahya Porselen (Kütahya, 4th year). Emet Bor (paid). TEI TUSAŞ Motor (Eskişehir, paid, 4th year)."},
+
+    # ===================== PREVIOUS SP OPPORTUNITIES =====================
+    {"id": "prev_sp_ankara", "topic": "Previous SP Companies Ankara Teknokent Sincan Balgat Ostim",
+     "content": "Previous SP companies in Ankara: Wicode (ODTÜ Teknokent, IE400 only). Hazine ve Maliye Bakanlığı (Dikmen, IE400). İnofab Sağlık (ODTÜ Teknokent, IE400). YÜKSEL Kompozit (Başkent OSB Sincan, IE300+400, aviation/defense). SENKRON Plastik (Ostim, IE300+400). TELMEK (Ostim, IE400). Meka Beton (Malıköy, IE300+400). Akdaş Döküm (Sincan, IE300+400). ELTEM-TEK (Balgat, IE400)."},
+
+    {"id": "prev_sp_other", "topic": "Previous SP Companies outside Ankara Bilecik Adana Hatay İzmir Kocaeli Amasya Bursa",
+     "content": "Previous SP companies outside Ankara: SİLKAR Madencilik (Bilecik, IE300+400). Tezcanlar Yatırım (Adana, IE300+400). Ekinciler Demir Çelik (Hatay, IE400). SÖĞÜT Seramik (Bilecik, IE300+400). Stackpole International (İzmir, automotive, IE300+400). Silverline Endüstri (Amasya, IE300+400). Kanca El Aletleri (Kocaeli, IE400). Şişecam, Eczacıbaşı Bilişim, Forte, Koç Holding + Microsoft Türkiye."},
 ]
