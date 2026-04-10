@@ -130,7 +130,7 @@ CONTEXT FROM SP WEBSITE:
     # Call Gemini API
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-3.0-flash-lite")
+        model = genai.GenerativeModel("gemini-3-flash-preview")
         
         # Build conversation history for Gemini
         gemini_history = []
