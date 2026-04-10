@@ -1,24 +1,32 @@
 """
-Simple RAG retrieval using TF-IDF similarity.
+RAG retrieval using TF-IDF similarity with bigram support.
 No external vector DB or embedding API needed.
 """
 
 import re
 import math
 from collections import Counter
-import sys
-import os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from knowledge_base import KNOWLEDGE_CHUNKS
 
 
 def tokenize(text: str) -> list[str]:
-    """Simple tokenizer: lowercase, split on non-alphanumeric."""
-    return re.findall(r'[a-z0-9çğıöşü]+', text.lower())
+    """Tokenizer that keeps compound terms like ie300, ie400 together."""
+    text = text.lower()
+    text = re.sub(r'\bie[\s\-_]*(\d{3})', r'ie\1', text)
+    text = re.sub(r'\bq[\s]*(\d)', r'q\1', text)
+    tokens = re.findall(r'[a-z0-9çğıöşü]+', text)
+    return tokens
+
+
+def make_bigrams(tokens: list[str]) -> list[str]:
+    """Create bigrams to capture phrase context."""
+    bigrams = []
+    for i in range(len(tokens) - 1):
+        bigrams.append(tokens[i] + "_" + tokens[i + 1])
+    return bigrams
 
 
 def compute_idf(documents: list[list[str]]) -> dict[str, float]:
-    """Compute inverse document frequency for all terms."""
     n = len(documents)
     df = Counter()
     for doc in documents:
@@ -29,14 +37,12 @@ def compute_idf(documents: list[list[str]]) -> dict[str, float]:
 
 
 def tfidf_vector(tokens: list[str], idf: dict[str, float]) -> dict[str, float]:
-    """Create a TF-IDF vector for a token list."""
     tf = Counter(tokens)
     max_tf = max(tf.values()) if tf else 1
     return {term: (count / max_tf) * idf.get(term, 0) for term, count in tf.items()}
 
 
 def cosine_similarity(v1: dict[str, float], v2: dict[str, float]) -> float:
-    """Cosine similarity between two sparse vectors."""
     common = set(v1) & set(v2)
     dot = sum(v1[t] * v2[t] for t in common)
     mag1 = math.sqrt(sum(x ** 2 for x in v1.values()))
@@ -52,13 +58,16 @@ class Retriever:
         self.doc_tokens = []
         for chunk in self.chunks:
             text = chunk["topic"] + " " + chunk["content"]
-            self.doc_tokens.append(tokenize(text))
+            unigrams = tokenize(text)
+            bigrams = make_bigrams(unigrams)
+            self.doc_tokens.append(unigrams + bigrams)
         self.idf = compute_idf(self.doc_tokens)
         self.doc_vectors = [tfidf_vector(tokens, self.idf) for tokens in self.doc_tokens]
 
     def retrieve(self, query: str, top_k: int = 5) -> list[dict]:
-        """Retrieve top_k most relevant chunks for a query."""
-        query_tokens = tokenize(query)
+        q_unigrams = tokenize(query)
+        q_bigrams = make_bigrams(q_unigrams)
+        query_tokens = q_unigrams + q_bigrams
         query_vec = tfidf_vector(query_tokens, self.idf)
 
         scored = []
@@ -78,7 +87,6 @@ class Retriever:
         return results
 
 
-# Singleton
 _retriever = None
 
 def get_retriever() -> Retriever:
