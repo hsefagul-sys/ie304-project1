@@ -63,7 +63,7 @@ with st.sidebar:
     api_key = st.secrets.get("GEMINI_API_KEY", "")
     
     if not api_key:
-        st.error("API key not configured. Please contact the administrator.")
+        st.error(f"API key not found. Secrets keys: {list(st.secrets.keys())}")
     
     st.markdown("---")
     st.markdown("### ℹ️ About")
