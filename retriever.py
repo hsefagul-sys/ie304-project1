@@ -6,6 +6,9 @@ No external vector DB or embedding API needed.
 import re
 import math
 from collections import Counter
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from knowledge_base import KNOWLEDGE_CHUNKS
 
 
