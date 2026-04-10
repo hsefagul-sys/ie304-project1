@@ -60,12 +60,10 @@ st.markdown("""
 # --- Sidebar for API Key ---
 with st.sidebar:
     st.markdown("### ⚙️ Settings")
-    api_key = st.text_input("Gemini API Key", type="password", help="Get your free API key from https://aistudio.google.com")
+    api_key = st.secrets.get("GEMINI_API_KEY", "")
     
-    if api_key:
-        st.success("API key set! ✅")
-    else:
-        st.warning("Please enter your Gemini API key to start chatting.")
+    if not api_key:
+    st.error("API key not configured. Please contact the administrator.")
     
     st.markdown("---")
     st.markdown("### ℹ️ About")
