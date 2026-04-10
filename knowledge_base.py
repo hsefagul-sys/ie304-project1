@@ -221,4 +221,91 @@ KNOWLEDGE_CHUNKS = [
         "topic": "Previous Summer Practice Opportunities and Companies",
         "content": "Previous years' SP companies include (with IE300/IE400 availability): Wicode (ODTÜ Teknokent, IE400 only), SİLKAR Madencilik (Bilecik, both IE300 and IE400), Tezcanlar Yatırım (Adana, both), Hazine ve Maliye Bakanlığı Bilgi Teknolojileri (Ankara, IE400 only), İnofab Sağlık Teknolojileri (ODTÜ Teknokent, IE400 only), Ekinciler Demir Çelik (Hatay, IE400 only), YÜKSEL Kompozit Teknolojileri (Başkent OSB Sincan, both, aviation/defense), SÖĞÜT Seramik (Bilecik, both), Stackpole International (İzmir, both, automotive), Silverline Endüstri (Merzifon/Amasya, both), Kanca El Aletleri (Kocaeli, IE400 only), Meka Beton Santralleri (Ankara, both), Akdaş Döküm (Sincan/Ankara, both), Şişecam, Eczacıbaşı Bilişim, Forte, and others. Students can check this list for reference when looking for SP companies."
     },
+    # --- IE 300 PRESENTATION DETAILS ---
+    {
+        "id": "ie300_prerequisites",
+        "topic": "IE 300 Prerequisites",
+        "content": "Prerequisites for IE 300: IE 102 + IE 251, IE 265, IE 241, OHS 101 (fall semester courses) + One out of {IE 266, IE 252} (spring semester courses). If any one of these prerequisite courses is not completed with a grade >= DD, IE 300 summer practice cannot be conducted. If you are in probation in the Fall semester, you cannot take the IE 300 course even if you successfully finished your SP."
+    },
+    {
+        "id": "ie300_overview",
+        "topic": "IE 300 Course Overview",
+        "content": "IE 300 is a must (compulsory) course which is non-credit. Your grade should be S (satisfactory) for graduation. It is integral and complementary to the IE curriculum. You gain your first experience of professional life. For the first time you get to know a company with all her aspects, get involved in decision problems, and get the chance of observing: the whole supply chain, manufacturing processes, sustainability concerns, cost accounting issues, use of operations research methods, use of statistical analysis and big data, team work, and IE roles and jobs."
+    },
+    {
+        "id": "ie300_when",
+        "topic": "IE 300 When to Conduct and Duration",
+        "content": "IE 300 summer practice is conducted in Summer 2025. Available time interval is approximately 3 months: June 25 to September 26. If you attend summer school, your summer practice period should not overlap with summer school. Minimum practice is 20 workdays (4 weeks). If you are in graduation status and have completed all your course work, you can conduct both IE 300 and IE 400 in succession in Summer 2025."
+    },
+    {
+        "id": "ie300_registration",
+        "topic": "IE 300 Registration and Report Deadline",
+        "content": "After summer practice is completed, you must register for IE 300 in the immediate academic term (Fall 2025-2026). Summer practice reports are due within the first 4 weeks of the registered academic term. Due date: October 24, 2025."
+    },
+    {
+        "id": "ie300_company_types",
+        "topic": "IE 300 Acceptable Company Types",
+        "content": "IE 300 MUST be done at a MANUFACTURING firm. Acceptable types include: Automotive, Machine parts, Electronics, Furniture, Textiles, Consumer durables (refrigerator, washing machine, etc.). Batch process industries are also accepted: Steel, Paper mills, Pharmaceutical, Food and beverages. NOT accepted for IE 300: Continuous process industries (cement, concrete, sugar, flour mill) and service industries (hospitals, hotels, banking, research organizations, transportation, cargo carriers). The summer practice must be conducted totally in the factory (face-to-face). Online or hybrid types are NOT allowed for IE 300."
+    },
+    {
+        "id": "ie300_report_rules",
+        "topic": "IE 300 Report Submission Rules",
+        "content": "IE 300 report submission: Upload your report at ODTUClass. The report is written based on the IE 300 manual. You should answer ALL questions in the manual. In some questions (e.g. accounting, finance), provide information about the method used at least if not provided with sufficient data. For each question, provide sufficient explanation and analysis — giving only a figure/table is not accepted. Before answering a question, read the explanation in the question and answer accordingly. Submit the soft copy (PDF file, docx converted to pdf) at ODTUClass IE 300 turnitin assignment for plagiarism check — similarity must be less than 20%. Reports are also checked whether they are AI generated. For the questionnaire, you will use METU Survey."
+    },
+    {
+        "id": "ie300_candidate_engineering",
+        "topic": "IE 300 Candidate Engineering Programs",
+        "content": "Candidate engineering activities during the semesters do not count for IE 300 since SP cannot overlap with the teaching period. If you continue candidate engineering during summer and you work for 20 full workdays in a row, then you can present it for IE 300."
+    },
+    # --- IE 400 PRESENTATION DETAILS ---
+    {
+        "id": "ie400_prerequisites",
+        "topic": "IE 400 Prerequisites",
+        "content": "Prerequisites for IE 400: IE 300 + IE 252, IE 323, IE 333 + Any two courses from the set: {IE 304, IE 324, IE 372, IE 368}. If any one of the prerequisite courses is not completed with a grade >= DD, IE 400 cannot be conducted."
+    },
+    {
+        "id": "ie400_when",
+        "topic": "IE 400 When to Conduct and Duration",
+        "content": "IE 400 summer practice is conducted in Summer 2025. Available time interval is approximately 3 months: June 25 to September 26. If you attend summer school, your summer practice period should not overlap with summer school. Minimum practice is 20 workdays (4 weeks), but this duration can be more if the company requests it. You can also conduct IE 400 during semester break in winter, if 20 workdays are available in the break. If you are in graduation status and have completed all your course work, you can conduct both IE 300 and IE 400 in succession in Summer 2025."
+    },
+    {
+        "id": "ie400_registration",
+        "topic": "IE 400 Registration and Report Deadline",
+        "content": "After summer practice is completed, you must register for IE 400 in the immediate following academic term (Fall 2025-2026). Summer practice reports are due within the first 4 weeks of the registered academic term. Due date: October 24, 2025."
+    },
+    {
+        "id": "ie400_company_types",
+        "topic": "IE 400 Acceptable Company Types",
+        "content": "IE 400 accepts BOTH manufacturing AND service companies. Manufacturing firms: Automotive, Machine parts, Electronics, Furniture, Textiles, Consumer durables, and batch/continuous process industries (Steel, Paper mills, Pharmaceutical, Food, Cement, Concrete, Sugar, Flour mill). Service industries: Hospitals, Hotels, Banking, Research organizations (ODTÜ Teknokent, etc.), Transportation, Cargo carriers, Public institutions, Non-governmental organizations (NGOs). For manufacturing companies: SP must be totally face-to-face. For service companies: SP can be either face-to-face or hybrid (face-to-face + online)."
+    },
+    {
+        "id": "ie400_conduct_types",
+        "topic": "IE 400 Summer Practice Types (Individual, Group, Project)",
+        "content": "IE 400 summer practice can be conducted in three ways: 1) Individual: at least 20 workdays. 2) Group of two students: at least 20 workdays, each writes their own report, the project/problem should be much more involved, and students must notify the SP committee in the first week of practice. 3) Project-based: at least 6 weeks (30 workdays), a two-page proposal must be approved by the SP Committee before SP starts, content and format is different (see the manual)."
+    },
+    {
+        "id": "ie400_report_rules",
+        "topic": "IE 400 Report Submission Rules",
+        "content": "IE 400 report consists of two sections: 'Questions' and 'Problem/Project' sections that are graded separately. Grade S (satisfactory) is required in BOTH parts to pass IE 400. The report is written based on IE 400 manuals — there are two types: manufacturing manual and service manual. For each question, provide sufficient explanation and analysis. Submit the soft copy (PDF, docx converted to pdf) at ODTUClass IE 400 turnitin assignment for plagiarism check — similarity must be less than 20%. Reports are also checked whether they are AI generated. For the questionnaire, use METU Survey."
+    },
+    {
+        "id": "ie400_sd_project",
+        "topic": "IE 400 Systems Design Project Opportunity",
+        "content": "During IE 400 summer practice, you are required to search for a 'Systems Design Project'. Summer practice is a good opportunity to find SD projects. Make your practice effective by looking for interesting problems and asking engineers about potential challenging problems for the SD project. Once you identify an interesting and challenging problem, check it with the SD committee (not the SP committee)."
+    },
+    {
+        "id": "ie400_paid_sp",
+        "topic": "IE 400 Paid Summer Practice Procedure",
+        "content": "If you receive payment during IE 400 SP: 1) Fill out the 'Paid SP questionnaire' under IE400 course at OCW. 2) Download, print, and sign the Paid SP Form (İşsizlik Fonu Katkısı Bilgi Formu) from the SP website. 3) Scan the signed form in PDF format. 4) Upload the Paid SP Form together with the bank receipt (PDF) showing payment received, under the assignment 'İşsizlik Fonu Katkısı Bilgi Formu' at OCW as a Zip file."
+    },
+    {
+        "id": "insurance_details",
+        "topic": "Insurance Coverage Details",
+        "content": "The compulsory insurance covers 'iş kazası ve meslek hastalığı sigortası' (work accident and occupational disease insurance) under Law #5510 (Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu). METU provides insurance for all SP students upon application. For compulsory summer practices, insurance is made for a period of 20 workdays to 3 months. For voluntary summer practices, insurance is made for a period of one month at most for only one organization. Insurance is also provided for summer practices abroad. If the company insures you, you do not need to apply through the university."
+    },
+    {
+        "id": "evaluation_form_details",
+        "topic": "Evaluation Form and Employer Survey Details",
+        "content": "Students must download the 'Evaluation Form and Employer Survey Form' from Documents/Forms tab. The forms are together in two pages: 'Başarı Belgesi' (Evaluation Form) and 'İşveren Anketi' (Employer Survey). Attach a recent photograph to the first page. The company should fill out these forms at the end of summer practice and email them to sp-belge@metu.edu.tr."
+    },
 ]
