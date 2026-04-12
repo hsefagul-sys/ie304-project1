@@ -2,14 +2,14 @@ import streamlit as st
 import google.generativeai as genai
 from retriever import get_retriever
 
-# --- Page Config ---
+# page setup
 st.set_page_config(
     page_title="METU IE Summer Practice Assistant",
     page_icon="🎓",
     layout="centered"
 )
 
-# --- Custom CSS ---
+# some css to make it look better
 st.markdown("""
 <style>
     .stApp {
@@ -41,7 +41,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# --- Header ---
+# header
 st.markdown("""
 <div class="header-container">
     <h1>🎓 METU IE Summer Practice Assistant</h1>
@@ -57,16 +57,16 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# --- Sidebar for API Key ---
+# sidebar
 with st.sidebar:
-    st.markdown("### ⚙️ Settings")
+    st.markdown("### Settings")
     api_key = st.secrets.get("GEMINI_API_KEY", "")
-    
+
     if not api_key:
         st.error("API key not configured. Please contact the administrator.")
-    
+
     st.markdown("---")
-    st.markdown("### ℹ️ About")
+    st.markdown("### About")
     st.markdown(
         "This chatbot answers questions about **METU Industrial Engineering** "
         "Summer Practice (IE 300 & IE 400) based on the official "
@@ -78,37 +78,36 @@ with st.sidebar:
         unsafe_allow_html=True
     )
 
-# --- Initialize ---
+# init retriever and chat history
 retriever = get_retriever()
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# --- Display chat history ---
+# show previous messages
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-# --- Chat input ---
+# handle user input
 if prompt := st.chat_input("Ask about summer practice..."):
     if not api_key:
-        st.error("Please enter your Gemini API key in the sidebar first.")
+        st.error("API key is missing.")
         st.stop()
 
-    # Show user message
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)
 
-    # Retrieve relevant context
+    # find relevant chunks from knowledge base
     results = retriever.retrieve(prompt, top_k=5)
-    
+
     context_parts = []
     for r in results:
         context_parts.append(f"[{r['topic']}]\n{r['content']}")
     context_text = "\n\n".join(context_parts) if context_parts else "No specific information found."
 
-    # Build prompt for Gemini
+    # prompt that we send to gemini along with the context
     system_prompt = f"""You are a helpful assistant for METU (Middle East Technical University) Industrial Engineering Department's Summer Practice program.
 
 Your role is to answer student questions about IE 300 and IE 400 summer practice courses accurately based on the provided context from the official SP website (https://sp-ie.metu.edu.tr/en).
@@ -125,19 +124,18 @@ CONTEXT FROM SP WEBSITE:
 {context_text}
 """
 
-    # Call Gemini API
+    # call gemini
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel("gemini-3-flash-preview")
-        
-        # Build conversation history for Gemini
+
+        # pass previous messages so gemini has context of the conversation
         gemini_history = []
-        for msg in st.session_state.messages[:-1]:  # exclude current message
+        for msg in st.session_state.messages[:-1]:
             role = "user" if msg["role"] == "user" else "model"
             gemini_history.append({"role": role, "parts": [msg["content"]]})
 
         chat = model.start_chat(history=gemini_history)
-        
         full_prompt = system_prompt + "\n\nUser question: " + prompt
 
         with st.chat_message("assistant"):
@@ -151,6 +149,6 @@ CONTEXT FROM SP WEBSITE:
     except Exception as e:
         error_msg = str(e)
         if "API_KEY" in error_msg.upper() or "PERMISSION" in error_msg.upper():
-            st.error("❌ Invalid API key. Please check your Gemini API key.")
+            st.error("Invalid API key. Check your Gemini API key.")
         else:
-            st.error(f"❌ Error: {error_msg}")
+            st.error(f"Error: {error_msg}")
