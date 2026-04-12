@@ -26,7 +26,7 @@ User Question
 +--------------+
 ```
 
-- **Knowledge Base**: Information chunks extracted from https://sp-ie.metu.edu.tr/en
+- **Knowledge Base**: Information chunks extracted from https://sp-ie.metu.edu.tr/en, for the pages on 
 - **Retrieval**: TF-IDF cosine similarity (no external vector DB needed)
 - **Generation**: Google Gemini (free tier)
 - **Frontend**: Streamlit chat interface
