@@ -37,9 +37,7 @@ User Question
 Install the dependencies with `pip install -r requirements.txt`. You'll need a Gemini API key from aistudio.google.com — just click "Get API Key" and copy it. Then run `streamlit run app.py` to start the app.
 
 ### 2. Get a Gemini API Key
-- Go to https://aistudio.google.com
-- Click "Get API Key" then "Create API key"
-- Copy the key
+- Go to https://aistudio.google.com and get an API Key.
 
 ### 3. Run the app
 ```bash
