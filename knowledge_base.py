@@ -4,11 +4,11 @@ Sources: IE300/IE400 Introductory Sessions (2025-2026) + IE300 Manual + IE400 Ma
 """
 
 KNOWLEDGE_CHUNKS = [
-    # ===================== SP COMMITTEE =====================
+    #  SP COMMITTEE
     {"id": "committee", "topic": "SP Committee Contact Info",
      "content": "SP Committee: Prof. Dr. Esra Karasakal, Prof. Dr. Cem İyigün, Çiya Aydoğan, Buğra Öztürk, Ömer Turan Şahinaslan, Özgür Ünverdi, Mehmet Sencer Zengin. Web: http://sp-ie.metu.edu.tr. Email: ie-staj@metu.edu.tr. Note: ie-staj is NOT a call center — check the SP website and presentation slides before emailing."},
 
-    # ===================== IE 300 PRESENTATION =====================
+    #  IE 300 PRESENTATION 
     {"id": "ie300_prereq", "topic": "IE 300 Prerequisites courses required",
      "content": "Prerequisites for IE 300: IE 102 + IE 251, IE 265, IE 241, OHS 101 (fall semester courses) + One out of {IE 266, IE 252} (spring semester courses). If any prerequisite is not completed with grade >= DD, IE 300 cannot be conducted. If you are in probation in the Fall semester, you cannot take IE 300 even if you finished your SP."},
 
@@ -57,7 +57,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "ie300_candidate_eng", "topic": "IE 300 Candidate Engineering stajyer mühendis",
      "content": "Candidate engineering during semesters does NOT count (SP cannot overlap teaching period). If continued during summer for 20 full workdays in a row, can count for IE 300."},
 
-    # ===================== IE 400 PRESENTATION =====================
+    #  IE 400 PRESENTATION 
     {"id": "ie400_prereq", "topic": "IE 400 Prerequisites courses required",
      "content": "Prerequisites for IE 400: IE 300 + IE 252, IE 323, IE 333 + Any two from {IE 304, IE 324, IE 372, IE 368}. If any prerequisite not completed with grade >= DD, IE 400 cannot be conducted."},
 
@@ -97,11 +97,11 @@ KNOWLEDGE_CHUNKS = [
     {"id": "ie400_paid", "topic": "IE 400 Paid Summer Practice payment zip file",
      "content": "If paid during IE 400: Fill 'Paid SP questionnaire' at OCW. Download/sign 'Paid SP Form (İşsizlik Fonu Katkısı Bilgi Formu)' from Documents/Forms. Upload signed form + bank receipt as ZIP file at OCW."},
 
-    # ===================== IE 300 MANUAL — GRADING =====================
+    #  IE 300 MANUAL — GRADING 
     {"id": "ie300_grading", "topic": "IE 300 Grading Evaluation Points Scoring report grade incomplete unsatisfactory repeat",
      "content": "IE 300 grading: Total 200 points from questions. Must score at least 50% in EACH section. Total < 160 or any section < 50% = 'Incomplete' (report returned for revision). Total < 125 = 'Unsatisfactory' (repeat SP at different workplace next semester break). Points breakdown: Introductory Features 10, Analysis of Macro Aspects 20, Management Information System 20, Overview of Production System 35, Production Planning and Control 35, Quality Planning and Control 20, Observation of Professional at Work 15, Analysis of Decision Making Problem 20, Conclusion 15, Style and Organization 10."},
 
-    # ===================== IE 300 MANUAL — SECTIONS =====================
+    #  IE 300 MANUAL — SECTIONS 
     {"id": "ie300_manual_format", "topic": "IE 300 Report Format Style language English sections structure",
      "content": "IE 300 report must be in English. Sections: Table of Contents, Introduction (scope, difficulties), Main body, Conclusion (experience evaluation), References, Appendix. Main sections numbered in capitals, subtitles lowercase underlined. All pages numbered. Figures/tables numbered. Questions can be answered in given order or reorganized. If a question is not applicable, justify why. Add glossary for technical terms."},
 
@@ -132,14 +132,14 @@ KNOWLEDGE_CHUNKS = [
     {"id": "ie300_manual_conclusion", "topic": "IE 300 Manual Section 9 Conclusion assessment feedback suggestions IE career",
      "content": "IE 300 Manual Conclusion (15 pts): Assess the SP procedure (scope, method, approach). What would you do with 4 more weeks? What to learn in future IE training? Differences between IE and other engineering disciplines. IE roles in the firm. Top management's attitudes toward IE."},
 
-    # ===================== IE 400 MANUFACTURING MANUAL — GRADING =====================
+    #  IE 400 MANUFACTURING MANUAL — GRADING 
     {"id": "ie400_mfg_grading", "topic": "IE 400 Manufacturing Grading Points scoring questions problem project incomplete unsatisfactory repeat",
      "content": "IE 400 Manufacturing grading: Questions section 200 points, Problem/Project section 100 points. Must pass BOTH separately. Questions: 125-160 or any section < 50% = 'Incomplete' (revision). < 125 = 'Unsatisfactory' (repeat at different workplace). Problem/Project: 40-65 = 'Incomplete', < 40 = 'Unsatisfactory'. Points for questions: Introductory Features 10, Macro Aspects 20, Production System Overview 35, Production Planning & Control 50, Quality 20, MIS 20, Work Study 20, Conclusion 15, Style 10."},
 
     {"id": "ie400_mfg_problem_grading", "topic": "IE 400 Manufacturing Problem Project section grading criteria project-type report",
      "content": "IE 400 Problem/Project section (100 pts) evaluated on: problem/project context (IE relevance, significance), technical content, style/organization. Project-type SP report grading: Introduction 5, Literature Review 10, Problem Definition 30, Data Gathering & Analysis 10, Solution Approaches 20, Results 15, Conclusion 10."},
 
-    # ===================== IE 400 MFG MANUAL — SECTIONS =====================
+    #  IE 400 MFG MANUAL — SECTIONS 
     {"id": "ie400_mfg_format", "topic": "IE 400 Manufacturing Report Format Style English sections appendix glossary",
      "content": "IE 400 Manufacturing report: English, sections numbered in capitals. Sections: TOC, Introduction, Main body (including IE problem or project), Conclusion, References, Appendix. Add glossary for technical terms including company jargon."},
 
@@ -173,14 +173,14 @@ KNOWLEDGE_CHUNKS = [
     {"id": "ie400_mfg_appendixB", "topic": "IE 400 Manufacturing Appendix B Participated Project report completed in-progress Gantt",
      "content": "IE 400 Appendix B — Participated Project Report: If completed: Introduction, Problem statement, Approach, Summary of Work, Conclusions. If in-progress: Introduction, Problem statement, Approach, Project Schedule (Gantt/network), Work Done To Date, Expected Outcomes."},
 
-    # ===================== IE 400 SERVICE MANUAL — GRADING =====================
+    #  IE 400 SERVICE MANUAL — GRADING 
     {"id": "ie400_svc_grading", "topic": "IE 400 Service Grading Points scoring questions problem project incomplete unsatisfactory",
      "content": "IE 400 Service grading: Questions 200 pts, Problem/Project 100 pts. Must pass both separately. Questions: 125-160 or section < 50% = Incomplete. < 125 = Unsatisfactory (repeat). Problem/Project: 40-65 = Incomplete. < 40 = Unsatisfactory. Points: Introductory Features 10, Macro Aspects 20, Service System Overview 35, Planning & Control 50, Quality 20, MIS 20, Work Study 20, Conclusion 15, Style 10."},
 
     {"id": "ie400_svc_problem_grading", "topic": "IE 400 Service Problem Project section project-type report grading 6 weeks",
      "content": "IE 400 Service Problem/Project (100 pts): context, technical content, style. Project-type report (min 6 weeks, proposal approved): Introduction 5, Literature Review 10, Problem Definition 30, Data Gathering 10, Solution Approaches 20, Results 15, Conclusion 10."},
 
-    # ===================== IE 400 SERVICE MANUAL — SECTIONS =====================
+    #  IE 400 SERVICE MANUAL — SECTIONS 
     {"id": "ie400_svc_format", "topic": "IE 400 Service Report Format Style Times New Roman font 12 spacing",
      "content": "IE 400 Service report: English, Times New Roman size 12, 1.5 line spacing. Use report cover from SP website. Sections: TOC, Introduction, Main body (with IE problem/project), Conclusion, References, Appendix. Add glossary."},
 
@@ -208,7 +208,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "ie400_svc_conclusion", "topic": "IE 400 Service Section 8 Conclusion assessment feedback IE career",
      "content": "IE 400 Service Conclusion (15 pts): Same as manufacturing — assess SP, most difficult part, plans for 4 more weeks, future training, IE vs other engineering, IE roles, management attitudes."},
 
-    # ===================== DOCUMENTS / FORMS ROUTING =====================
+    #  DOCUMENTS / FORMS ROUTING 
     {"id": "docs_app_letters", "topic": "Documents Forms Application Letters download staj başvuru belgesi",
      "content": "Application Letters at sp-ie.metu.edu.tr > Documents/Forms (login required): IE-300 SP Application Form (Turkish/English), IE-400 SP Application Form (Turkish/English), SP Protocol (sözleşme, if company requests)."},
 
@@ -224,7 +224,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "docs_presentations", "topic": "Documents Forms Introductory Session presentations slides download",
      "content": "Introductory Session presentations at Documents/Forms: IE 300 Introductory Session slides, IE 400 Introductory Session slides. Cover prerequisites, steps, company types, insurance, deadlines."},
 
-    # ===================== HOME PAGE =====================
+    #  HOME PAGE 
     {"id": "home_sp_meeting", "topic": "SP Meeting 2025 announcement general meeting March",
      "content": "SP meeting 2025: A general meeting on IE 300 and IE 400 summer internship courses and SP procedures was held on March 14, 2025 at 14:40. IE 300 in IE03, IE 400 in IE04. Meeting slides available at Documents/Forms page."},
 
@@ -234,7 +234,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "home_contract", "topic": "SP work contract staj sözleşmesi signing",
      "content": "If you need your SP work contract (staj sözleşmesi) signed, leave it at the Undergraduate Secretary Office IE 129 and get it back in one week."},
 
-    # ===================== GENERAL INFORMATION =====================
+    #  GENERAL INFORMATION 
     {"id": "gen_physical", "topic": "General Information physical attendance remote online",
      "content": "Summer internships must be done by physically attending the workplace. Remote or online internships are not accepted."},
 
@@ -268,7 +268,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "gen_paid_sp", "topic": "General Information paid summer practice private company payment İşsizlik Fonu bank receipt OCW",
      "content": "If SP was at private company in Turkey and you received payment (not public institutions, not unpaid): 1) Login to ocw.metu.edu.tr. 2) Fill 'Paid SP form questionnaire' carefully (incomplete = rejected). 3) Download/print/sign Paid SP Form from Documents/Forms. 4) Upload signed form (PDF) + bank receipt (PDF) at OCW. If mistake, submit new form (latest counts)."},
 
-    # ===================== STEPS TO FOLLOW =====================
+    #  STEPS TO FOLLOW 
     {"id": "steps_before", "topic": "Steps to Follow before summer practice company search apply insurance",
      "content": "Before SP: 1) Examine SP website early. 2) Read SP Manual (Documents/Forms). 3) Check insurance info. 4) Find company — check department list, social connections, earlier SP databases. 5) Some companies need SP Application Letter (Documents/Forms). 6) Some need SP Protocol (sözleşme) — leave at IE 129, pick up in a week. 7) Apply for SGK insurance on time via OCW. 8) Start SP."},
 
@@ -278,7 +278,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "steps_after", "topic": "Steps to Follow after summer practice report ODTUClass deadline corrections plagiarism AI",
      "content": "After SP: 1) Prepare report following SP Manual. 2) Register for IE 300/400 in registration period. 3) Submit report via ODTUClass (strict deadline announced). 4) Report in PDF format. 5) Checked for plagiarism and AI generation. 6) Graded by assigned faculty. 7) Last month of semester: reports needing corrections returned. 8) 2-3 weeks to complete corrections and return via ODTUClass."},
 
-    # ===================== FAQ =====================
+    #  FAQ 
     {"id": "faq_arrange", "topic": "FAQ how to arrange find summer practice company department assigned personal application",
      "content": "Two ways to find SP: apply personally OR wait for department announcements (limited capacity, risky). Some firms require department to select candidates — announcement made, students send transcripts/resumes/Preference Form. If assigned by department, must do SP at that company."},
 
@@ -309,7 +309,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "faq_service_manual", "topic": "FAQ IE 400 service sector manual available photocopy",
      "content": "IE 400 service sector manual is available. Can be obtained from the photocopy office in the department, or downloaded from Documents/Forms > SP Manuals."},
 
-    # ===================== SP OPPORTUNITIES (CURRENT) =====================
+    #  SP OPPORTUNITIES (CURRENT) 
     {"id": "sp_opp_overview", "topic": "SP Opportunities current companies internship positions available",
      "content": "Current SP opportunities listed at sp-ie.metu.edu.tr > SP Opportunities (login required). Includes companies offering internships with details on location, areas, wage, and contact info. Check regularly for updates."},
 
@@ -322,7 +322,7 @@ KNOWLEDGE_CHUNKS = [
     {"id": "sp_opp_other", "topic": "SP Opportunities outside Ankara İzmir Bursa Antalya Balıkesir İstanbul Eskişehir",
      "content": "SP opportunities outside Ankara: ELTAŞ Transformatör (Aliağa/İzmir, paid). EKER Süt (Bursa, paid). İMECAR Elektronik (Antalya). Gönenli Süt (Balıkesir). Anadolu Sigorta (Beykoz/İstanbul, paid). Ledbim Bilişim (Antalya, 4th year). Kütahya Porselen (Kütahya, 4th year). Emet Bor (paid). TEI TUSAŞ Motor (Eskişehir, paid, 4th year)."},
 
-    # ===================== PREVIOUS SP OPPORTUNITIES =====================
+    #  PREVIOUS SP OPPORTUNITIES 
     {"id": "prev_sp_ankara", "topic": "Previous SP Companies Ankara Teknokent Sincan Balgat Ostim",
      "content": "Previous SP companies in Ankara: Wicode (ODTÜ Teknokent, IE400 only). Hazine ve Maliye Bakanlığı (Dikmen, IE400). İnofab Sağlık (ODTÜ Teknokent, IE400). YÜKSEL Kompozit (Başkent OSB Sincan, IE300+400, aviation/defense). SENKRON Plastik (Ostim, IE300+400). TELMEK (Ostim, IE400). Meka Beton (Malıköy, IE300+400). Akdaş Döküm (Sincan, IE300+400). ELTEM-TEK (Balgat, IE400)."},
 
