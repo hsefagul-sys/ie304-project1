@@ -46,8 +46,6 @@ streamlit run app.py
 
 ## Deploying to Streamlit Cloud
 
-## Deploying to Streamlit Cloud
-
 Push the project to a GitHub repo, then go to share.streamlit.io and create a new app pointing to the repo. Set `app.py` as the main file. Before deploying, add the Gemini API key in Settings > Secrets as `GEMINI_API_KEY = "your-key"`.
 
 ## Project Structure
