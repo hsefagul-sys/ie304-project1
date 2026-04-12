@@ -1,8 +1,6 @@
 # METU IE Summer Practice Chatbot
 
-An intelligent chatbot that answers questions about METU Industrial Engineering Summer Practice (IE 300 / IE 400).
-
-Built for IE 304 – Project 1 (Spring 2025-2026).
+A chatbot that answers questions about METU Industrial Engineering Summer Practice (IE 300 / IE 400) for IE 304 – Project 1 (Spring 2025-2026).
 
 ## Architecture
 
