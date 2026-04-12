@@ -31,12 +31,10 @@ User Question
 - **Generation**: Google Gemini (free tier)
 - **Frontend**: Streamlit chat interface
 
+
 ## Running Locally
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+Install the dependencies with `pip install -r requirements.txt`. You'll need a Gemini API key from aistudio.google.com — just click "Get API Key" and copy it. Then run `streamlit run app.py` to start the app.
 
 ### 2. Get a Gemini API Key
 - Go to https://aistudio.google.com
@@ -50,12 +48,9 @@ streamlit run app.py
 
 ## Deploying to Streamlit Cloud
 
-1. Push this project to a GitHub repository
-2. Go to https://share.streamlit.io
-3. Click "New app"
-4. Select your repo, branch, and `app.py` as the main file
-5. Add your Gemini API key under Settings > Secrets as `GEMINI_API_KEY = "your-key"`
-6. Click "Deploy"
+## Deploying to Streamlit Cloud
+
+Push the project to a GitHub repo, then go to share.streamlit.io and create a new app pointing to the repo. Set `app.py` as the main file. Before deploying, add the Gemini API key in Settings > Secrets as `GEMINI_API_KEY = "your-key"`.
 
 ## Project Structure
 
